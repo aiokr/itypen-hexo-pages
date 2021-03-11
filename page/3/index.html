@@ -1,0 +1,789 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--360 使用 Google Chrome Frame-->
+  <meta name="renderer" content="webkit">
+  <!--百度禁止转码-->
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <!--Description-->
+  
+  <meta name="description" content="从镜头里看世界">
+  
+  <meta name="google-site-verification" content="J4gssmXGNI9-DfJ9w52mL5KFPlRCYvySveEN0RJFZHU" />
+  <!--Author-->
+  
+  <meta name="author" content="aiokr">
+  
+  <!--Open Graph Title-->
+  
+  <meta property="og:title" content="iTypen.APP" />
+  
+  <!--Open Graph Description-->
+  
+  <meta property="og:description" content="从镜头里看世界" />
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="iTypen.APP" />
+  <!--Type page-->
+  
+  <meta property="og:type" content="website" />
+  
+  <!--Page Cover-->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Title -->
+  
+  <title>iTypen.APP - aio&#39;s Photography &amp; Note</title>
+  <!-- 添加到主屏后的标题（iOS 6 新增） -->
+  <meta name="apple-mobile-web-app-title" content="iTypen.APP">
+  <!-- 是否启用 WebApp 全屏模式 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 禁止数字识自动别为电话号码 -->
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_avatar">
+  <!--Apple iOS Safari ICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_iPhone" />
+  <link rel="apple-touch-icon" sizes="72x72" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_RetinaiPad" />
+  <link rel="apple-touch-icon" sizes="114x114" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_iPhoneHD" />
+  <link rel="apple-touch-icon" sizes="144x144" href="https://imgur.lzmun.com/picgo/20200430223748.jpg_RetinaiPad" />
+  <!-- 添加 RSS 订阅 -->
+  <link rel="alternate" type="application/rss+xml" title="iTypen.APP" href="/atom.xml" />
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <!-- Custom CSS/Sass -->
+  
+<link rel="stylesheet" href="/css/mdui.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  <!--highlight.js CSS-->
+  
+  
+<link rel="stylesheet" href="/css/highlight/tomorrow-night-eighties.css">
+
+  
+  
+  <!-- jquery -->
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!-- PJAX -->
+  <script src="//cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+  <script>
+  </script>
+  
+  <script data-pjax src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+  <script data-pjax src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  
+  
+  <!-- Google Analytics with Cloudflare Async -->
+  <script>
+    window.ga_tid = "UA-141010711-2"; // {String} The trackerID of your site.
+    window.ga_api = "https://async-google-analytics.disqusapi.workers.dev/"; // {String} The route of your cloudflare workers you just registered before.
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.1" async></script>
+  
+  
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+
+<body>
+  <!-- Nav -->
+  <div style="display: none;" id="nav_menu" class="itp-nav-menu">
+  <div class="mdui-dialog-title">导航</div>
+  <div class="mdui-row-xs-2 mdui-nav-list" style="padding-bottom: 10px;">
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">home</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">首页
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/archives/">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">move_to_inbox</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">归档
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/about.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">person</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">关于
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="/links.html">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">link</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">友链
+      </div>
+    </a>
+    
+    <a class="mdui-list-item mdui-ripple mdui-col" href="https://www.notion.so/itypen/iTypen-ebe24a2af9a44ab6a4101597afe3d9d5" target="_blank" rel="noopener">
+      <i class="mdui-list-item-icon mdui-icon material-icons itp-drawer-icon">gesture</i>
+      <div class="mdui-list-item-content itp-header-actions-menu" style="font-size: 14px; color: #757575;">渊视呈像
+      </div>
+    </a>
+    
+  </div>
+</div>
+<header id="header" class="itp-header noprn">
+  <div id="appbar-index" class="mdui-appbar mdui-appbar-fixed itp-appbar_index mdui-shadow-0">
+    <div id="toolbar-index" class="mdui-toolbar mdui-shadow-0" style="justify-content: center;">
+      <a class="mdui-btn mdui-btn-icon itp-drawer-btn itp-header-actions_menu" style="color: #fff" data-fancybox data-src="#nav_menu" href="javascript:;"><i
+          class="mdui-icon material-icons">menu</i></a>
+      <a href="/" class="itp-header-title mdui-typo-title">iTypen.APP</a>
+      <div class="itp-nav-action">
+        
+        <a href="/" class="mdui-btn itp-header-actions" style="color: #fff">首页</a>
+        
+        <a href="/archives/" class="mdui-btn itp-header-actions" style="color: #fff">归档</a>
+        
+        <a href="/about.html" class="mdui-btn itp-header-actions" style="color: #fff">关于</a>
+        
+        <a href="/links.html" class="mdui-btn itp-header-actions" style="color: #fff">友链</a>
+        
+        <a href="https://www.notion.so/itypen/iTypen-ebe24a2af9a44ab6a4101597afe3d9d5" target="_blank" rel="noopener" class="mdui-btn itp-header-actions" style="color: #fff">渊视呈像</a>
+        
+      </div>
+      <div class="itp-nav-action">
+        
+        <a href="/search.html" class="mdui-btn mdui-btn-icon itp-header-search-btn"><i class="mdui-icon material-icons"
+            style="line-height: 20px;">search</i></a>
+        
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Cover -->
+  <div class="itp-cover noprn">
+  <div class="itp-cover-img">
+    
+    <img class="nofancy" src="https://imgur.lzmun.com/picgo/20200504100314.jpg">
+    
+  </div>
+  <div class="itp-cover-text">
+    <div class="itp-cover-title mdui-text-center"
+      style="color: #fff; opacity: 1;">
+      iTypen.APP</div>
+    <div class="itp-cover-subtitle mdui-text-center"
+      style="color: #fff; opacity: 0.8;">
+      
+从镜头里看世界
+</div>
+  </div>
+</div>
+<div class="itp-cover noscreen">
+  <div class="itp-cover-img">
+    
+    <img class="nofancy nodisplay" src="https://imgur.lzmun.com/picgo/20200504100314.jpg">
+    
+  </div>
+  <div class="itp-cover-text">
+    <div class="itp-cover-title mdui-text-center"
+      style="color: #000; opacity: 1;">
+      iTypen.APP</div>
+    <div class="itp-cover-subtitle mdui-text-center"
+      style="color: #000 !important; opacity: 0.8;">
+      
+从镜头里看世界
+</div>
+  </div>
+</div>
+  <!-- Main Content -->
+  <div class="mdui-container-fluid">
+  <div class="mdui-row">
+    <div class="mdui-col-lg-3 mdui-col-md-2 mdui-col-sm-1 mdui-col-xs-down"></div>
+    <div class="mdui-col-lg-6 mdui-col-md-8 mdui-col-sm-10 mdui-col-xs-12">
+      <!--<div class="itp-index-notice mdui-text-center">
+        向那些永远停留在这个冬天里的人致哀
+      </div>-->
+      <div class="itp-index">
+        
+        <section id="index-post-entry">
+          <div class="mduimdui-card-primary itp-index-content">
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/量本利分析/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-15.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/量本利分析/">量本利分析</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-05-29<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/笔记/" rel="tag">
+        笔记
+      </a>
+      <span> / </span>
+      
+      401
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/量本利分析/">
+        名词解释
+量：业务量、产量/销量。一般假定销量=产量，即生产出来的产品全部被...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/西方经济学课后练习/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-9.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/西方经济学课后练习/">西方经济学课后练习</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-05-28<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/笔记/" rel="tag">
+        笔记
+      </a>
+      <span> / </span>
+      
+      5k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/西方经济学课后练习/">
+        第一章
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/ruchu3/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://imgur.lzmun.com/picgo/20190506125608.jpg_itp');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/ruchu3/">永远是少年</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-05-11<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/读立写生/" rel="tag">
+        读立写生
+      </a>
+      <span> / </span>
+      
+      3.7k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/ruchu3/">
+        卷首语 永远是少年又到了过生日的时候。
+去...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/ruchu2/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://imgur.lzmun.com/picgo/20190502204745.jpg_itp');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/ruchu2/">世界总在不断地新陈代谢</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-05-05<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/读立写生/" rel="tag">
+        读立写生
+      </a>
+      <span> / </span>
+      
+      1.5k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/ruchu2/">
+        卷首语 世界总在不断地新陈代谢
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/ruchu1/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://imgur.lzmun.com/picgo/20190425212431.jpg_itp');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/ruchu1/">你有多久没有好好读过一本书了</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-04-28<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/读立写生/" rel="tag">
+        读立写生
+      </a>
+      <span> / </span>
+      
+      2.5k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/ruchu1/">
+        卷首语 ...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/Mobile-phone-camera-and-algorithm-intervention/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://imgur.lzmun.com/picgo/20190425232808.jpg_itp');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/Mobile-phone-camera-and-algorithm-intervention/">手机拍照与算法介入</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-04-24<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/读立写生/" rel="tag">
+        读立写生
+      </a>
+      <span> / </span>
+      
+      3.6k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/Mobile-phone-camera-and-algorithm-intervention/">
+        各位好，欢迎来到本期的渊梦。在这一期中，我想和大家谈谈关于手机摄影，以及手机的成像算法相关一些东西。
+
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2019/something-about-micro-forth-three/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-15.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2019/something-about-micro-forth-three/">关于 M43 的一些碎碎念</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2019-04-02<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/随笔/" rel="tag">
+        随笔
+      </a>
+      <span> / </span>
+      
+      1.8k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2019/something-about-micro-forth-three/">
+        各位伙伴，你们好，欢迎来到本期的渊梦。这一期跟各位谈谈我对 m43 系统的一些想法。
+
+截幅一时爽，一直截幅一直爽。
+说起来，我也是从 35mm 全画幅到 APS-C 到 m43 都有摸过的人...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2018/咱们好好打字，别发语音行吗/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://imgur.lzmun.com/picgo/20190602160823.jpg_itp');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2018/咱们好好打字，别发语音行吗/">咱们好好打字，别发语音行吗</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2018-10-28<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/读立写生/" rel="tag">
+        读立写生
+      </a>
+      <span> / </span>
+      
+      1.7k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2018/咱们好好打字，别发语音行吗/">
+        
+本文首发于少数派
+
+说到在微信等通讯工具上，最令人深恶痛绝的交流方式是什么，我想绝非通过冗长的语音消息交流工作莫属。
+
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2018/ipads-light-productivity-experience-guide/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-13.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2018/ipads-light-productivity-experience-guide/">iPad 轻度生产力体验指北</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2018-09-29<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/随笔/" rel="tag">
+        随笔
+      </a>
+      <span> / </span>
+      
+      3.3k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2018/ipads-light-productivity-experience-guide/">
+        「这个电脑，拿掉了...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2018/mid-autumn-festival-2018/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-19.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2018/mid-autumn-festival-2018/">中秋 月圆夜</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2018-09-24<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/随笔/" rel="tag">
+        随笔
+      </a>
+      <span> / </span>
+      
+      1.3k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2018/mid-autumn-festival-2018/">
+        中秋 月圆夜「独在异乡为异客」
+
+今天，是出门在外的...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2018/think-about-my-standing-and-living/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-12.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2018/think-about-my-standing-and-living/">为自己的生存作出思考 | 1982 夏娃义务</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2018-09-10<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/随笔/" rel="tag">
+        随笔
+      </a>
+      <span> / </span>
+      
+      2.8k
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2018/think-about-my-standing-and-living/">
+        
+所有不安于现状的人都想知道答案，所有人都想知道乌托邦该怎么建立——而任何宣称自己答案人，如果他相信自己的解决方法，他就是极蠢。如果他自己都不相信，他就是极恶。 
+——1982 夏娃义务 卡...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2017/2017-08-20-serif-and-sans-serif/">
+    
+    <div class="mdui-card-media itp-post-entry-cover" style="background-image: url('https://ooo.0o0.ooo/2017/06/06/593697b7b77d8.jpg');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2017/2017-08-20-serif-and-sans-serif/">衬线字体与非衬线字体</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2017-08-20<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/笔记/" rel="tag">
+        笔记
+      </a>
+      <span> / </span>
+      
+      738
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2017/2017-08-20-serif-and-sans-serif/">
+        我们将字体分为衬线字体和非衬线字体两大类。衬线字体以 宋体 和 Times New Roman 为代表 ，非衬线字体以微软雅黑为代表。
+
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2017/2017-03-20-US-Cabinet-2017-cabinet-tips/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-19.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2017/2017-03-20-US-Cabinet-2017-cabinet-tips/">危机联动内阁注意事项</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2017-03-20<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/笔记/" rel="tag">
+        笔记
+      </a>
+      <span> / </span>
+      
+      854
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2017/2017-03-20-US-Cabinet-2017-cabinet-tips/">
+        现实世界与模拟世界对于美国内阁而言，进攻时常是美国内阁的...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            
+<div class="itp-post-entry mdui-card mdui-shadow-0">
+  
+  <a href="/2016/LGMUNC2016/">
+    
+    <div class="mdui-card-media itp-post-entry-cover"
+      style="background-image: url('/../img/random/randompic-13.png');">
+    </div>
+    
+  </a>
+  <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title itp-post-entry-title"><a
+        href="/2016/LGMUNC2016/">模联改变我们，我们改变世界！ —— LGMUNC2016</a>
+    </div>
+    <div class="itp-post-entry-subtitle">
+      2016-12-06<span> / </span>
+      
+      <a class="itp-post-entry-categories" href="/categories/随笔/" rel="tag">
+        随笔
+      </a>
+      <span> / </span>
+      
+      543
+    </div>
+    <div class="itp-post-entry-excerpt">
+      <a href="/2016/LGMUNC2016/">
+        
+现收到来自美国代表的动议，动议开启主发言名单，请问台下有无附议。
+
+为期两天的会期过去了，2 天，48 个小时，7 个会期，2 份茶歇，我与你们相聚，得以认识你们...
+        
+      </a>
+    </div>
+  </div>
+  
+</div>
+            
+            
+            <div class="index-pagination">
+              
+              <a href="/page/2/" class="index-pagination-btn">上一页</a>
+              
+              
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="mdui-col-lg-3 mdui-col-md-2 mdui-col-sm-1 mdui-col-xs-down"></div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <!-- Footer -->
+<footer class="mdui-text-center itp-footer">
+  <section class="footer-info">
+    iTypen.APP &copy; 2016 - 2021
+    
+    <span> / </span>
+    86k
+    
+    
+    
+  </section>
+  
+  </section>
+</footer>
+  <!-- After footer scripts -->
+  <!-- fancybox -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="/js/mdui.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+  $("code").each(function () {
+    $(this).html("<ol><li>" + $(this).html().replace(/\n/g, "\n</li><li>") + "\n</li></ol>");
+  });
+</script>
+
+
+
+<script src="/js/app.js"></script>
+
+</body>
+
+
+</html>
